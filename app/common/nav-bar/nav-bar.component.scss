@@ -1,0 +1,43 @@
+.content {
+    white-space: nowrap; /* Prevent tabs from wrapping to the next line */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+    width: calc(100vw - 230px);
+  }
+  
+  .nav-bar {
+    display: flex;
+    gap: 15px;
+    align-items: center; /* Display tabs in a single row */
+    white-space: nowrap; /* Prevent tabs from wrapping */
+  }
+.tab
+{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(255 247 247 / 15%);
+    padding: 8px 12px;
+    cursor: pointer;  
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.nav-bar:hover .tab  
+{
+    background-color: rgb(102, 100, 100);
+}
+.tab-toolTip
+{
+    display: none;
+}
+.nav-bar:hover .tab-toolTip{
+    display: block;
+    position: absolute;
+    top: 110px;
+    color: gray;
+    padding:2px 7px;
+    border: 1px solid gray;
+}

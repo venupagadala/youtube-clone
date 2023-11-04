@@ -1,0 +1,39 @@
+<div class="slider-container">
+    <div class="home-content">
+        <div *ngFor="let object of HomeData">
+            <div class="slide-option">
+                <img class="slider-image" src="{{ object.url }}" alt="{{ object.title }}">
+                <div class="title">{{ object.title }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="home-content">
+        <div *ngFor="let object of yourData">
+            <div class="slide-option">
+                <img class="slider-image" src="{{ object.url }}" alt="{{ object.title }}">
+                <div class="title">{{ object.title }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="home-content">
+        <div *ngFor="let object of moreData">
+            <div class="slide-option">
+                <img class="slider-image" src="{{ object.url }}" alt="{{ object.title }}">
+                <div class="title">{{ object.title }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="home-content">
+        <div *ngFor="let object of SettingsData">
+            <div class="slide-option">
+                <img class="slider-image" src="{{ object.url }}" alt="{{ object.title }}">
+                <div class="title">{{ object.title }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="first-foot">About Press Copyright Contact us Creators Advertise Developers</div>
+        <div class="second-foot">Terms Privacy Policy & Safety How YouTube worksTest new features NFL Sunday Ticket</div>
+        <div class="terms">© 2023 Google LLC</div>
+    </div>
+</div>

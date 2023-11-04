@@ -1,0 +1,35 @@
+.container {
+}
+.header {
+}
+.body {
+    display: flex;
+}
+.slider {
+    width: 15%;
+}
+.content {
+}
+.nav-tab {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scrollbar-width: thin; /* Set the width of the scrollbar for Firefox */
+    scrollbar-color: transparent transparent; /* Set the scrollbar color to transparent */
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -webkit-scrollbar-width: thin; /* Set the width of the scrollbar for Webkit browsers (Chrome, Safari) */
+    -webkit-scrollbar-color: transparent transparent; /* Set the scrollbar color to transparent for Webkit browsers */
+}
+
+/* Optional: Set a minimum height for the scrollbar track to make it more visible when hovering over it */
+.nav-tab::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Optional: Style the scrollbar thumb for Webkit browsers */
+.nav-tab::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: none;
+}
+
+.videos-body {
+}

@@ -1,0 +1,59 @@
+.slider-container {
+    height: calc(100vh - 60px); 
+    overflow-y: auto;
+    scrollbar-color: #918e8e #6c6969; 
+  }
+
+  
+  /* For Webkit browsers like Chrome and Safari */
+  .slider-container::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+  }
+  
+  .slider-container::-webkit-scrollbar-thumb {
+    background-color: #8f8d8d; /* Set the color of the scrollbar thumb */
+    border: 2px solid #747272; /* Add a border to the scrollbar thumb */
+    border-radius: 10px;
+  }
+  
+.home-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 11px;
+    border-bottom: 1px solid rgb(71, 70, 70);
+    padding: 10px 0px 14px 0px;
+}
+.slide-option {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 7px 8px;
+    cursor: pointer;
+}
+.slide-option:hover {
+    background-color: rgb(32, 31, 31); /* Change the background color to your desired color */
+    border-radius: 7px;
+  }
+.slider-image
+{
+    width:24px;
+}
+.title {
+    text-transform: capitalize;
+  }
+  
+.slide-option:hover .title {
+    background-color: rgb(32, 31, 31);
+  }
+  .footer
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 11px 15px 18px;
+  }
+  .first-foot,.terms, .second-foot
+  {
+    color: gray;
+    cursor: pointer;
+  }

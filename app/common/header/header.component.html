@@ -1,0 +1,38 @@
+<div class="header">
+    <div class="header-tools">
+        <div class="menu">
+            <img class="header-image" src="../../../assets/menu.svg.png" alt="menu icon" />
+        </div>
+        <div class="menu">
+            <img class="home-image" src="../../../assets/icon.svg.png" alt="youtube icon" />
+        </div>
+    </div>
+    <div class="search-tools">
+        <div class="search-input">
+            <input class="input" type="text" />
+            <img class="header-image" src="../../../assets/wrong.png" alt="wrong-icon" />
+        </div>
+        <div class="search-icon">
+            <img class="header-image" src="../../../assets/search.png" alt="search icon" />
+        </div>
+        <div>
+            <img class="speaker-image"
+                 (mouseover)="toolTipFlag = true"
+                 (mouseleave)="toolTipFlag = false"
+                 src="../../../assets/speaker.png"
+                 alt="speaker">
+            <div [ngClass]="toolTipFlag ? 'show-tool-tip' : 'close-tool-tip'">Use your voice to search</div>
+          </div>
+        </div>
+        <div class="header-tools">
+            <div class="reals">
+                <img class="header-image" src="../../../assets/shorts.png" alt="reals" />
+            </div>
+            <div class="notifications">
+                <img class="header-image" src="../../../assets/notifications.png" alt="notifications" />
+            </div>
+            <div class="profile">
+                <img class="header-image" src="../../../assets/profile.png" alt="profile-icon" />
+            </div>
+        </div>
+    </div>
